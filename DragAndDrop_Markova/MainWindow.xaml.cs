@@ -33,7 +33,7 @@ namespace DragAndDrop_Markova
 
 		private void Image_MouseUp(object sender, MouseButtonEventArgs e)
 		{
-
+			dispatcherTimer.Stop();
         }
 
 		private void Image_MouseDown(object sender, MouseButtonEventArgs e)
