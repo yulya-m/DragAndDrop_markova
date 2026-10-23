@@ -20,5 +20,10 @@ namespace DragAndDrop_Markova
 		{
 			InitializeComponent();
 		}
-	}
+
+		private void Image_MouseUp(object sender, MouseButtonEventArgs e)
+		{
+
+        }
+    }
 }

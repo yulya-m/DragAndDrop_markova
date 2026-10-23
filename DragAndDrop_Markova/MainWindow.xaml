@@ -5,13 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DragAndDrop_Markova"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
-    <Grid>
+        Title="MainWindow" Height="350" Width="525" MinHeight="350" MinWidth="525"
+        MouseUp="Image_MouseUp">
+    <Grid MouseUp="Image_MouseUp">
         <Image
             x:Name="image"
             Height="50"
             Width="50"
-            Source="Images\button.png"/>
-
+            Source="Images\button.png"
+            MouseUp="Image_MouseUp"/>
     </Grid>
 </Window>
