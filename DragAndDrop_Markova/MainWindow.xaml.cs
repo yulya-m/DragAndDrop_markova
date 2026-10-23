@@ -28,6 +28,7 @@ namespace DragAndDrop_Markova
 
 		private void DispatcherTimer_Tick(object sender, EventArgs e)
 		{
+			image.Margin = new Thickness(Mouse.GetPosition(this).X - 25, Mouse.GetPosition(this).Y - 25, 0, 0);
 		}
 
 		private void Image_MouseUp(object sender, MouseButtonEventArgs e)
