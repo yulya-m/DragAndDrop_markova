@@ -13,6 +13,7 @@
             Height="50"
             Width="50"
             Source="Images\button.png"
-            MouseUp="Image_MouseUp"/>
+            MouseUp="Image_MouseUp"
+            MouseDown="Image_MouseDown"/>
     </Grid>
 </Window>
